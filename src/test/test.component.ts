@@ -2,7 +2,7 @@ import { html } from "lit";
 import { customElement, property } from "lit/decorators.js";
 import { TailwindElement } from "../shared/tailwind.element";
 
-import style from "./test.component.scss?inline";
+import style from "./test.component.css?inline";
 
 @customElement("test-component")
 export class TestComponent extends TailwindElement(style) {

@@ -18,9 +18,6 @@ importers:
         specifier: ^4.0.0
         version: 4.0.0
     devDependencies:
-      sass-embedded:
-        specifier: ^1.83.4
-        version: 1.83.4
       typescript:
         specifier: ~5.6.2
         version: 5.6.3
@@ -719,7 +716,8 @@ packages:
 
 snapshots:
 
-  '@bufbuild/protobuf@2.2.3': {}
+  '@bufbuild/protobuf@2.2.3':
+    optional: true
 
   '@esbuild/aix-ppc64@0.24.2':
     optional: true
@@ -924,9 +922,11 @@ snapshots:
 
   '@types/trusted-types@2.0.7': {}
 
-  buffer-builder@0.2.0: {}
+  buffer-builder@0.2.0:
+    optional: true
 
-  colorjs.io@0.5.2: {}
+  colorjs.io@0.5.2:
+    optional: true
 
   detect-libc@1.0.3: {}
 
@@ -968,9 +968,11 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  has-flag@4.0.0: {}
+  has-flag@4.0.0:
+    optional: true
 
-  immutable@5.0.3: {}
+  immutable@5.0.3:
+    optional: true
 
   jiti@2.4.2: {}
 
@@ -1073,6 +1075,7 @@ snapshots:
   rxjs@7.8.1:
     dependencies:
       tslib: 2.8.1
+    optional: true
 
   sass-embedded-android-arm64@1.83.4:
     optional: true
@@ -1165,28 +1168,34 @@ snapshots:
       sass-embedded-win32-arm64: 1.83.4
       sass-embedded-win32-ia32: 1.83.4
       sass-embedded-win32-x64: 1.83.4
+    optional: true
 
   source-map-js@1.2.1: {}
 
   supports-color@8.1.1:
     dependencies:
       has-flag: 4.0.0
+    optional: true
 
   sync-child-process@1.0.2:
     dependencies:
       sync-message-port: 1.1.3
+    optional: true
 
-  sync-message-port@1.1.3: {}
+  sync-message-port@1.1.3:
+    optional: true
 
   tailwindcss@4.0.0: {}
 
   tapable@2.2.1: {}
 
-  tslib@2.8.1: {}
+  tslib@2.8.1:
+    optional: true
 
   typescript@5.6.3: {}
 
-  varint@6.0.0: {}
+  varint@6.0.0:
+    optional: true
 
   vite@6.0.11(jiti@2.4.2)(lightningcss@1.29.1)(sass-embedded@1.83.4):
     dependencies:
