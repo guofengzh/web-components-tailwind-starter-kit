@@ -1,8 +1,7 @@
 @reference "tailwindcss/theme";
 p {
   @apply bg-red-200;
-  & b {
+  b {
     @apply text-orange-500;
   }
 }
-
